@@ -1,0 +1,147 @@
+body{
+    background-image: linear-gradient(fuchsia, indigo);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.header {
+    overflow: hidden;
+    background-color: indigo;
+    padding: 20px 10px;
+  }
+  
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+.header a:hover {
+    background-color:darkmagenta;
+    color:white;
+  }
+  
+.header a.active {
+    background-color:darkmagenta;
+    color: white;
+  }
+  
+.header-right {
+    float: right;
+  }
+  
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  .statement{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:32pt;
+    color: white;
+    padding-left: 10px;
+    text-shadow: 4px 4px black;
+    margin-top: 0%;
+  }
+
+  footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width:75%;
+  }
+
+.form 
+{
+        padding: 0px;
+        max-width: auto;
+        margin-left: 3%;
+        margin-top: 5%;
+        width: auto;
+}
+
+.login-page 
+{
+    margin:auto;
+    height: auto;
+}
+
+label 
+{ 
+    color: white;
+    font-size: 24px;
+    width: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    text-align: :left;
+}
+
+input[id = name] 
+{
+    background-color:lightgrey;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 2px lightgrey;
+    padding-bottom: 10px;
+}
+
+input[id = username] 
+{
+    background-color:lightgrey;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 2px lightgrey;
+    padding-bottom: 10px;
+}
+
+textarea[id = message] 
+{
+    background-color: lightgrey;
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing:border-box;
+    border: 2px lightgrey;
+    overflow-wrap: break-word;
+    padding-bottom: 10px;
+}
+
+button
+{
+        background-color: green;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 18px;
+        padding: 12px;
+        margin: 10px;
+        width: 30%;
+        border:0px;
+}
+
+.disclaimer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:20pt;
+    color: white;
+    padding-left: 10px;
+    text-shadow: 4px 4px black;
+    margin-top: 0%;
+  }s
