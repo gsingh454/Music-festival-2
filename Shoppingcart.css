@@ -71,7 +71,7 @@ label {
     border-bottom: 1px solid #eee;
   }
   
-  .product-image, .product-details, .product-removal {
+  .product-details, .product-removal {
     text-indent: -9999px;
   }
 
