@@ -1,11 +1,19 @@
 /* Set rates + misc */
+// const  $ = require('jquery');
 var taxRate = 0.05;
 var shippingRate = 15.00; 
 var fadeTime = 300;
 
 
 /* Assign actions */
-$('.product-quantity input').change( function() {
+$(document).ready(function(){
+  $('.product-quantity input').change(function ()
+  {
+    updateQuantity(this);
+    // My code and some alerts
+  })
+  // Other event handlers.
+});$('.product-quantity input').change( function() {
   updateQuantity(this);
 });
 
@@ -20,9 +28,11 @@ function recalculateCart()
   var subtotal = 0;
   
   /* Sum up row totals */
+  $(document).ready(function(){
   $('.product').each(function () {
     subtotal += parseFloat($(this).children('.product-line-price').text());
   });
+})
   
   /* Calculate totals */
   var tax = subtotal * taxRate;
@@ -48,6 +58,8 @@ function recalculateCart()
 /* Update quantity */
 function updateQuantity(quantityInput)
 {
+  console.log('harjap')
+
   /* Calculate line price */
   var productRow = $(quantityInput).parent().parent();
   var price = parseFloat(productRow.children('.product-price').text());

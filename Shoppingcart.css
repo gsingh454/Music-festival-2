@@ -1,4 +1,4 @@
- @import "compass/css3";
+ /* @import "compass/css3"; */
 
 
 /* Global settings
@@ -33,9 +33,9 @@ $font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
 
 
 /* Apply clearfix in a few places */
-.shopping-cart, .column-labels, .product, .totals-item {
+/* .shopping-cart, .column-labels, .product, .totals-item {
   @extend .group;
-}
+} */
 
 
 /* Apply dollar signs */
