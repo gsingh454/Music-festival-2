@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel = "stylesheet" type = "text/css" href = "/Users/trishashah/Library/Mobile Documents/com~apple~CloudDocs/SJSU/Tickets Pic and CSS/tickets.css"
+
+    form action="tickets.php" method="post">
+</head>
+<body>
+    <main>
+        <h1 class="tickets">Tickets</h1>
+        <p> <img src="/Users/trishashah/Library/Mobile Documents/com~apple~CloudDocs/SJSU/Tickets Pic and CSS/Tickets Page.png" width = "1500" height = "400"
+          alt="Tickets Picture" class=center> </p>
+    <div class="elem-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+    </div>
+    <div class="elem-group">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="visitor_phone" placeholder="405-555-5555" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+    </div>
+    <hr>
+    <div class="elem-group inlined">
+      <label for="total number">Number of Tickets</label>
+      <input type="number" id="Ticket Amount" name="total_tickets" placeholder="2" min="1" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="ticket-selection">Select Type of Ticket</label>
+      <select id="ticket-selection" name="ticket_type" required>
+          <option value="">Choose a Package</option>
+          <option value="packagea">Package A</option>
+          <option value="packageb">Package B</option>
+          <option value="packagec">Package C</option>
+      </select>
+    </div>
+    <hr>
+    <div class="elem-group">
+      <label for="message">Anything Else?</label>
+      <textarea id="message" name="visitor_message" placeholder="Any additional questions or requests?" required></textarea>
+    </div>
+    <button type="submit">Purchase Tickets</button>
+  </form>
+</body>
+</html>

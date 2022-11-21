@@ -1,0 +1,157 @@
+body{
+    background-image: linear-gradient(fuchsia, indigo);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.header {
+    overflow: hidden;
+    background-color: indigo;
+    padding: 20px 10px;
+  }
+  
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+.header a:hover {
+    background-color:darkmagenta;
+    color:white;
+  }
+  
+.header a.active {
+    background-color:darkmagenta;
+    color: white;
+  }
+  
+.header-right {
+    float: right;
+  }
+
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  .statement{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:32pt;
+    color: white;
+    padding-left: 10px;
+    text-shadow: 4px 4px black;
+    margin-top: 0%;
+  }
+
+  footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width:75%;
+  }
+
+.Information-page 
+{
+    margin:auto;
+    height: auto;
+}
+
+label 
+{ 
+    color: white;
+    font-size: 24px;
+    width: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    text-align: left;
+  }
+
+.venueinfo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size:16pt;
+    color: white;
+    padding-left: 10px;
+    margin-top: 0%;
+  }
+
+.venuedate {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size:16pt;
+    color: white;
+    padding-left: 10px;
+    margin-top: 0%;
+  }
+
+  .boxoffice {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size:16pt;
+    color: white;
+    padding-left: 10px;
+    margin-top: 0%;
+  }
+
+  .security{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:32pt;
+    color: white;
+    padding-left: 10px;
+    text-shadow: 4px 4px black;
+    margin-top: 0%;
+  }
+
+  .securityinfo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size:16pt;
+    color: white;
+    padding-left: 10px;
+    margin-top: 0%;
+  }
+
+  .ageID {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:32pt;
+    color: white;
+    padding-left: 10px;
+    text-shadow: 4px 4px black;
+    margin-top: 0%;
+  }
+
+  .ageIDinfo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size:16pt;
+    color: white;
+    padding-left: 10px;
+    margin-top: 0%;
+  }
+
+  .newstyle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size:13pt;
+    color: white;
+    padding-left: 10px;
+    margin-top: 0%;
+  }
+
+  .acceptableitems {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:32pt;
+    color: white;
+    padding-left: 10px;
+    text-shadow: 4px 4px black;
+    margin-top: 0%;
+  }
