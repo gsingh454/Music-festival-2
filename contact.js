@@ -1,7 +1,7 @@
 
 //Cristian's API Key
 const firebaseConfig = {
-    apiKey: "AIzaSyDRQvRLYymMSigvVJUB4wUwR8ZUy1v8lHk", 'Cristian' 
+    apiKey: "AIzaSyDRQvRLYymMSigvVJUB4wUwR8ZUy1v8lHk",
     authDomain: "login-edb56.firebaseapp.com",
     projectId: "login-edb56",
     databaseURL: "https://login-edb56-default-rtdb.firebaseio.com/",

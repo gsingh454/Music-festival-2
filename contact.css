@@ -87,7 +87,7 @@ label
     width: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
-    text-align: left;
+    text-align: :left;
 }
 
 input[id = name] 
@@ -144,4 +144,4 @@ button
     padding-left: 10px;
     text-shadow: 4px 4px black;
     margin-top: 0%;
-  }
+  }s
