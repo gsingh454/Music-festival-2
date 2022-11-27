@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel = "stylesheet" type = "text/css" href = "contact.css">
+</head>
+<body>
+
+    <div class="header">
+        <a href="homepage.html">Home</a>
+        <div class="header-right">
+          <a href="info.html">Information</a>
+          <a href="tickets.html">Tickets</a>
+          <a href="faq.html">FAQs</a>
+          <a href="Shoppingcart.html">Cart</a>
+          <a class="active" href="contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <div class = "login-page">
+    <div class = "form">
+
+    <p class="statement">For any questions or concerns not found on our FAQ page, please fill out our contact form.
+    </p>
+
+    <form method = "post" action= "contactconfirm.html">
+
+       <label>Name</label> 
+       <input type="text" id="name" required size="30" maxlength="100"> 
+       <label>Email</label> 
+       <input type="email" id="username" required size="20" maxlength="100"> 
+       <label>Message</label> 
+       <textarea id="message" name="message" rows="4" cols="100">Enter text here...
+       </textarea>
+       <br>
+       <button onclick="send()">Submit</button>
+       <br><br><br>
+       <p class="disclaimer">Please allow for up to 72 hours for us to process your request, thank you! </p>
+       <br><br><br><br><br><br><br>
+    </form>
+    </div>
+    </div>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"> </script> 
+<script src="contact.js"></script> 
+</body>
+</html>
